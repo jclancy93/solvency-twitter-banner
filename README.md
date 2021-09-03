@@ -8,6 +8,8 @@ Allows you to update your twitter account banner with an NFT on a set interval :
 [![Downloads/week](https://img.shields.io/npm/dw/nft-twitter-banner.svg)](https://npmjs.org/package/nft-twitter-banner)
 [![License](https://img.shields.io/npm/l/nft-twitter-banner.svg)](https://github.com/jclancy93/nft-twitter-banner/blob/master/package.json)
 
+You will need a Twitter developer account for API access to upload your banner programatically, you can [sign up here](https://developer.twitter.com/) 
+
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
@@ -15,18 +17,8 @@ Allows you to update your twitter account banner with an NFT on a set interval :
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g nft-twitter-banner
-$ nft-twitter-banner COMMAND
-running command...
-$ nft-twitter-banner (-v|--version|version)
-nft-twitter-banner/0.0.0 darwin-x64 node-v14.16.1
-$ nft-twitter-banner --help [COMMAND]
-USAGE
-  $ nft-twitter-banner COMMAND
+$ ./bin/run
 ...
 ```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
 
 <!-- commandsstop -->
