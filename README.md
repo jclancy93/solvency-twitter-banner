@@ -10,10 +10,11 @@ Allows you to update your twitter account banner with an NFT on a set interval :
 
 You will need a Twitter developer account for API access to upload your banner programatically, you can [sign up here](https://developer.twitter.com/) 
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
+# Installation
+```
+yarn
+```
+
 # Usage
 <!-- usage -->
 ```sh-session
