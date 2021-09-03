@@ -1,0 +1,50 @@
+{
+  "name": "nft-twitter-banner",
+  "description": "Allows you to update your twitter account banner with an NFT on a set interval :tada:",
+  "version": "0.0.0",
+  "author": "Jack Clancy @jclancy93",
+  "bin": {
+    "nft-twitter-banner": "./bin/run"
+  },
+  "bugs": "https://github.com/jclancy93/nft-twitter-banner/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3",
+    "cli-ux": "^5.6.3",
+    "puppeteer": "^10.2.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1",
+    "chai": "^4",
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1",
+    "mocha": "^5",
+    "nyc": "^14"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/jclancy93/nft-twitter-banner",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "nft-twitter-banner"
+  },
+  "repository": "jclancy93/nft-twitter-banner",
+  "scripts": {
+    "posttest": "eslint .",
+    "prepack": "oclif-dev readme",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
