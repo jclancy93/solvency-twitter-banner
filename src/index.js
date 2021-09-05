@@ -10,8 +10,8 @@ const initBrowser = async solvencyNumber => {
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: {
-      width: 1920,
-      height: 1080,
+      width: 1280,
+      height: 720,
     },
     args: [
       '--disable-background-timer-throttling',
