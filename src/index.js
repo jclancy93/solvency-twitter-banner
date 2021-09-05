@@ -22,13 +22,7 @@ const initBrowser = async solvencyNumber => {
   const page = await browser.newPage()
 
   // Opens selected solvency
-  await page.goto(`https://solvency.art/view/${solvencyNumber}`)
-
-  // Finds view on arweave button
-  const [a] = await page.$x("//a[contains(., 'View on Arweave')]")
-  if (a) {
-    await a.click()
-  }
+  await page.goto(`https://solvency.art/view/${solvencyNumber}?fullscreen=true`)
 
   return page
 }
